@@ -1,0 +1,6 @@
+//ACCORDION
+
+$(function () {
+    $("#accordion").accordion();
+  });
+  
