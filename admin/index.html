@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- JQUERY EN LINEA -->
+     <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Stock Fertilizantes</title>
+    <!--CSS-->
+    
+    <link rel="stylesheet" type="text/css" href="assets/estilos2.css" media="screen" />
+    
+    
+</head>
+
+<body>
+    <div id="global">
+        <div id="formularios" class="verde">
+        <img src="assets/logo.png" width="50%" height="100" alt="">
+        <br><br>
+        <h3>Gestor de base de datos</h3>
+<br><br>
+
+
+<label >Usuario  </label>
+<br><br>
+<input type="text" id="user">
+<br><br>
+<label >Contraseña</label>
+<br><br>
+<input type="password" id="password">
+<br><br>
+<br><br>
+<button id="log">Entrar</button>
+<br><br>
+
+        <button id="mostrar2">Mostrar Contraseña y User</button>
+        <br>
+        <br><br>
+        <div id="caja2">User: php    Contraseña: 11111</div>
+        <br><br><br><br>
+
+</div>
+
+        </div>
+
+ <!-- Optional JavaScript -->
+
+    <script>
+
+        //VALIDACION DE REGISTRO
+    var login = document.getElementById("log");
+    login.onclick = validar;
+
+    function validar(){
+        console.log("hola");
+        var user=document.getElementById("user").value;
+        var pass=document.getElementById("password").value;
+
+        if (user != "php" ) {
+            alert("Usuario incorrecta");
+        }else if( pass !=11111){
+            
+            alert("Password incorrecta");
+        }else{
+            alert("Bienvenido");
+            location.href="index2.php";
+        }
+    }
+
+    var caja2 = $("#caja2");
+         //MUESTRA LA CAJA
+    $("#mostrar2").hover(function(){
+        caja2.fadeTo('slow', 1); //fast normal medium slow, podemos usar tambien fadeIn();
+    //puedo meter un CSS un overflow: scroll; para hacer un scroll si hay mucha informacion
+        
+    })
+    </script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

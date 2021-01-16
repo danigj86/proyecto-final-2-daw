@@ -1,0 +1,155 @@
+.verde {
+    color: rgb(13, 121, 45);
+    font-style:oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+    #caja2{
+    width: 50%;
+    height: 20%;
+    border: 3px dashed black;
+    background-color: rgba(108, 114, 19, 0.753);
+    text-align: center;
+    line-height: 50px; /*para centrar el texto*/
+    color: white;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px auto;
+    display:none;
+    border-radius:5px;
+    padding:10px;
+    /* puedo meter un CSS un overflow: scroll; para hacer un scroll si hay mucha informacion */
+    
+    }
+    button{
+        padding:5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    color:white;
+    scroll-margin-bottom: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin-top: 5px;
+    background-color: rgb(48, 175, 69);
+    }
+
+    body {
+        background: url('img1.jpg');
+        background-attachment: fixed;
+        /*ESTO ES PARA QUE LA IMAGEN SE QUEDE FIJA, AUNQUE HAGA SCROLL HACIA ABAJO*/
+    
+    }
+    
+    #index{
+        text-align: center;
+    }
+    
+    /*CONTENEDOR GLOBAL, DONDE ESTÁ TODO DENTRO, CON FONDO BLANCO*/
+    #global {
+        width: 65%;
+        margin: 0px auto;
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255, 0.7);
+        padding: 20px;
+        box-shadow: 0px 0px 2px #ccc;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        border: 1px solid black;
+    
+    }
+    footer {
+        width: 65%;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 30px;
+        color:white;
+        background-color: rgba(4, 122, 40, 0.61);
+        padding: 20px;
+        box-shadow: 0px 0px 2px #ccc;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        border: 1px solid black;
+    
+    }
+    
+    
+    .blanc {
+        color: white;
+        font-style:oblique;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; ;
+    }
+    
+    
+    
+    #formularios{
+        padding:5px;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+    hr{
+        color: green;
+    }
+    
+    form input[type="text"]{
+    padding:5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 30%;
+    scroll-margin-bottom: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin-top: 5px;
+    background-color: rgb(181, 255, 193);
+    
+    }
+    form input[type="number"]{
+        padding:5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        width: 30%;
+        scroll-margin-bottom: 10px;
+        box-shadow: 0px 0px 2px gray;
+        margin-top: 5px;
+        background-color: rgb(181, 255, 193);
+        
+        }
+    form input[type="password"]{
+        padding:5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        width: 30%;
+        scroll-margin-bottom: 10px;
+        box-shadow: 0px 0px 2px gray;
+        margin-top: 5px;
+        background-color: rgb(181, 255, 193);
+        
+        }
+    
+    form input[type="submit"]{
+        padding:5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        color:white;
+        scroll-margin-bottom: 10px;
+        box-shadow: 0px 0px 2px gray;
+        margin-top: 5px;
+        background-color: rgb(48, 175, 69);
+        
+        }
+        input[type="submit"]{
+            padding:5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            color:white;
+            scroll-margin-bottom: 10px;
+            box-shadow: 0px 0px 2px gray;
+            margin-top: 5px;
+            background-color: rgb(48, 175, 69);
+            
+            }
+    
+    #resultado{
+    
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    
